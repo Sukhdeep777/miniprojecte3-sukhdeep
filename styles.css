@@ -32,7 +32,7 @@ header{ /*Al header le ponemos que este en el centro*/
 }
 
 .fondo-azul{ /*Para poner el fondo de un color azul fuerte*/
-    background-color: #011031;
+    background-color: #0A2A6B;
 }
 
 .fondo-blanco{ /*Para poner el fondo de color blanco*/
@@ -75,6 +75,7 @@ main{ /*Selector general de main, para que salga la imagen i q cubra cuando haya
     color: #0A2A6B;
 }
 
+
 h1{ /*Cambiar el tamaño para que se vea igual que en la imagen*/
     font-size: 50px;
     width: 900px;
@@ -86,11 +87,22 @@ h1{ /*Cambiar el tamaño para que se vea igual que en la imagen*/
     font-size: 24px;
 }
 
-.aboutus{
+.aboutus{ /*Hacemos el boton para el about us*/
     background-color: #FFFFFF;
     border-radius: 10px;
     width: 170px;
     display: flex;
     justify-content: center;
     font-family: sans-serif;
+    a{
+        text-decoration: none;
+        color: #0A2A6B;
+    }
+}
+
+footer{ 
+    display: flex;
+    justify-content: center;
+    background-color: #0A2A6B;
+    color: white;
 }
