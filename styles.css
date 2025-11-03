@@ -13,7 +13,7 @@ body{
 }
 
 .centro{ /*Para poder en el centro los objetos y que esten siempre y que no se deformen*/
-    width: 1600px; /*Ancho de cada bloque*/
+    width: 1400px; /*Ancho de cada bloque*/
     padding-left: 168px;
     padding-right: 168px;
 }
@@ -66,11 +66,21 @@ main{ /*Selector general de main, para que salga la imagen i q cubra cuando haya
     background-size: cover;
 }
 
-.padding-top-bottom{
+.padding-top-bottom{ /*Un padding para el main*/
     padding-top: 16em;
     padding-bottom: 16em;
 }
 
-.color-blue{
+.color-blue{ /*Poner el texto de color Azul marino*/
     color: #0A2A6B;
+}
+
+h1{ /*Cambiar el tamaño para que se vea igual que en la imagen*/
+    font-size: 50px;
+}
+
+.styleh2{ /*Quitar la decoracion de un texto para h2*/
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
 }
