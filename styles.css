@@ -8,6 +8,10 @@ body{
     display: flex;
 }
 
+.directionflex{ /*Para cambia la dirección*/
+    flex-direction: column;
+}
+
 .centro{ /*Para poder en el centro los objetos y que esten siempre y que no se deformen*/
     width: 1600px; /*Ancho de cada bloque*/
     padding-left: 168px;
@@ -43,10 +47,30 @@ header{ /*Al header le ponemos que este en el centro*/
     align-items: center;
 }
 
-#menu li{
+.centernotvertical{ /*Poner los items de forma horizontal*/
+    justify-content: center;
+}
+
+#menu li{ /*ID de la lista, le quitamos el estilo, ponemos un color de texto*/
     list-style: none;
     a{
         text-decoration: none;
         color: #000000;
     }
+}
+
+main{ /*Selector general de main, para que salga la imagen i q cubra cuando haya texto y este en el centro*/
+    display: flex;
+    justify-content: center;
+    background: url(img/photos/señor1.jpg);
+    background-size: cover;
+}
+
+.padding-top-bottom{
+    padding-top: 16em;
+    padding-bottom: 16em;
+}
+
+.color-blue{
+    color: #0A2A6B;
 }
