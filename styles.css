@@ -71,6 +71,10 @@ main{ /*Selector general de main, para que salga la imagen i q cubra cuando haya
     padding-bottom: 15em;
 }
 
+.generalpadding{ /*Añadir un padding general a cualquier item*/
+    padding: 8px;
+}
+
 .color-blue{ /*Poner el texto de color Azul marino*/
     color: #0A2A6B;
 }
