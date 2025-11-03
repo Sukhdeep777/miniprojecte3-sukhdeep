@@ -100,9 +100,28 @@ h1{ /*Cambiar el tamaño para que se vea igual que en la imagen*/
     }
 }
 
-footer{ 
+footer{ /*Footer para que se quede centrado y el texto de color blanco*/
     display: flex;
     justify-content: center;
     background-color: #0A2A6B;
     color: white;
+}
+
+.style2{ /*Classe para poner el estilo de Tebuchet al parraffo del footer*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 350px;
+    border-right: 1px solid #FFFFFF;
+}
+
+.freequote{ /*Para el boton freequote*/
+    font-size: 14px;
+    width: 100px;
+    background-color: #FFFFFF;
+    width: 170px;
+    justify-content: center;
+    border-radius: 10px;
+    a{
+        text-decoration: none;
+        color: #0A2A6B;
+    }
 }
