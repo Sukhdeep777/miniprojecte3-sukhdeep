@@ -1,0 +1,52 @@
+/*En vez de que el fondo rode todo, lo he hecho que cada color se expanda para que se pueda ver en cualquier dispositivo igual*/
+
+body{
+    background-color: #011031;
+}
+
+.flex{ /*Creamos este selector de classe para assignar flex*/
+    display: flex;
+}
+
+.centro{ /*Para poder en el centro los objetos y que esten siempre y que no se deformen*/
+    width: 1600px; /*Ancho de cada bloque*/
+    padding-left: 168px;
+    padding-right: 168px;
+}
+
+.between{ /*Para hacer un espacio entre igual*/
+    justify-content: space-between;
+}
+
+header{ /*Al header le ponemos que este en el centro*/
+    display: flex;
+    justify-content: center;
+}
+
+.espacio{ /*Separacion de 20px*/
+    gap: 20px;
+}
+
+.fondo-azul{ /*Para poner el fondo de un color azul fuerte*/
+    background-color: #011031;
+}
+
+.fondo-blanco{ /*Para poner el fondo de color blanco*/
+    background-color: #FFFFFF;
+}
+
+.white-text{ /*Para poner el texto de color blanco*/
+    color: #FFFFFF; 
+}
+
+.centervertical{ /*Poner los items verticalmente en el centro*/
+    align-items: center;
+}
+
+#menu li{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: #000000;
+    }
+}
