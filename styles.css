@@ -67,8 +67,8 @@ main{ /*Selector general de main, para que salga la imagen i q cubra cuando haya
 }
 
 .padding-top-bottom{ /*Un padding para el main*/
-    padding-top: 16em;
-    padding-bottom: 16em;
+    padding-top: 15em;
+    padding-bottom: 15em;
 }
 
 .color-blue{ /*Poner el texto de color Azul marino*/
@@ -77,10 +77,20 @@ main{ /*Selector general de main, para que salga la imagen i q cubra cuando haya
 
 h1{ /*Cambiar el tamaño para que se vea igual que en la imagen*/
     font-size: 50px;
+    width: 900px;
 }
 
 .styleh2{ /*Quitar la decoracion de un texto para h2*/
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
+}
+
+.aboutus{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
 }
